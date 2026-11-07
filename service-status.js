@@ -1,6 +1,6 @@
 // The only service switch: true shows the original site; false shows suspension.
 // Change this value, then commit and push to the GitHub Pages publishing branch.
-const SERVICE_ACTIVE = false;
+const SERVICE_ACTIVE = true;
 
 if (!SERVICE_ACTIVE) {
   // This script must stay first in <head>, without async, defer or type="module".
